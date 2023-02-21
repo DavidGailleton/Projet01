@@ -44,7 +44,9 @@ servent à ajouter le frameworks bootstrap au site.
 
 Bootstrap est un framework développé par l'équipe du réseau social Twitter. Proposé en open source, ce framework utilisant les langages HTML, CSS et JavaScript fournit aux développeurs des outils pour créer un site facilement.
 
-Pour suivre, je vais configurer la partie `<header>` :
+Le site vas être divisé en 3 parties, `<header>` `<main>` `<footer>`. Ces balise permette de mieux distinguer les différente partie par le navigateur, elles remplacent la balise `<div>` pour un meilleur rendue.
+
+Je vais configurer la partie `<header>` :
 ``` html
 <header>
         <a href="index.html" >
@@ -59,6 +61,8 @@ Pour suivre, je vais configurer la partie `<header>` :
         </ul>
     </header>
 ```
+
+
 
 Je vais ensuite embélire le visuel avec du CSS et surtout des preset CSS de bootstrap:
 ``` html
