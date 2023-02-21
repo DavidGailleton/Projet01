@@ -16,13 +16,13 @@ La base du code HTML doit contenir ceci :
 
     <title>Website</title>
 
-    <link href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
 </head>
 
 <body>
 
-    <link href="js/bootstrap.min.js">
+    <script src="js/bootstrap.js"></script>
 
 </body>
 
@@ -34,10 +34,45 @@ Les lignes :
 
 ```html
 
-<link href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
 
-<link href="js/bootstrap.min.js">
+<script src="js/bootstrap.js"></script>
 
 ```
 
 servent à ajouter le frameworks bootstrap au site.
+
+Bootstrap est un framework développé par l'équipe du réseau social Twitter. Proposé en open source, ce framework utilisant les langages HTML, CSS et JavaScript fournit aux développeurs des outils pour créer un site facilement.
+
+Pour suivre, je vais configurer la partie `<header>` :
+``` html
+<header>
+        <a href="index.html" >
+            <img src="images/logo.jpg" alt="Logo">
+        </a>
+        <ul>
+            <li><a href="apropos.html">A propos</a></li>
+            <li><a href="simulateur.html">Simulateur</a></li>
+        </ul>
+        <ul>
+            <button>Login</button>
+        </ul>
+    </header>
+```
+
+Je vais ensuite embélire le visuel avec du CSS et surtout des preset CSS de bootstrap:
+``` html
+<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+            <img src="images/logo.jpg" alt="Logo" class="ms-4">
+        </a>
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-5">
+            <li><a href="#" class="nav-link px-3 link-dark">A propos</a></li>
+            <li><a href="#" class="nav-link px-3 link-dark">Simulateur</a></li>
+        </ul>
+        <ul class="col-md-3 text-end">
+            <button class="btn btn-dark me-3 mt-3">Login</button>
+        </ul>
+    </header>
+```
+
