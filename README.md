@@ -1,5 +1,7 @@
 La base du code HTML doit contenir ceci :
+
 ``` html
+
 <!DOCTYPE html>
 
 <html lang="fr">
@@ -25,13 +27,17 @@ La base du code HTML doit contenir ceci :
 </body>
 
 </html>
+
 ```
 
 Les lignes :
+
 ```html
+
 <link href="css/bootstrap.min.css">
 
 <link href="js/bootstrap.min.js">
-```
-servent à ajouter le frameworks bootstrap au site.
 
+```
+
+servent à ajouter le frameworks bootstrap au site.
