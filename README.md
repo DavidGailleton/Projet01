@@ -59,10 +59,15 @@ Je vais configurer la partie `<header>` :
         <ul>
             <button>Login</button>
         </ul>
-    </header>
+</header>
 ```
 
-
+Foctionnalité des différentes balise :
+	- `<a>` : permet de crée un lien hypertext 
+	- `<img>` : permet d'insérer une image au seins du site
+	- `<ul>` : permet de créer un liste dite "désordonné"
+	- `<li>` : permet de présenté un éléments dans une liste, elle est enfant de `<ul>`, `<ol>` ou `<menu>`
+	- `<button>` : permet de créer un bouton cliquable
 
 Je vais ensuite embélire le visuel avec du CSS et surtout des preset CSS de bootstrap:
 ``` html

@@ -7573,6 +7573,10 @@ textarea.form-control-lg {
   width: 25% !important;
 }
 
+.w-33 {
+  width: 33% !important;
+}
+
 .w-50 {
   width: 50% !important;
 }
@@ -7861,6 +7865,14 @@ textarea.form-control-lg {
 .mx-5 {
   margin-right: 3rem !important;
   margin-left: 3rem !important;
+}
+.mx-10 {
+  margin-right: 6rem !important;
+  margin-left: 6rem !important;
+}
+.mx-20 {
+  margin-right: 12rem !important;
+  margin-left: 12rem !important;
 }
 
 .mx-auto {
