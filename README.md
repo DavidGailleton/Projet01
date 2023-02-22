@@ -96,3 +96,17 @@ Pour la partie body je commence par ajouter le contenu en HTML :
         </ul>
     </main>
 ```
+
+`<h1>` : permet d'insérer un Titre qui sera surout utile pour le référencement.
+
+Après avoir ajouter du CSS de bootstrap ça done ceci :
+``` html
+ <main class="bg-white mx-xxl-20 mx-xl-15 mx-lg-10 mx-md-5 mx-3 flex-column d-flex">
+        <h1 class="h1 text-center py-4">A propos</h1>
+        <p class="lead text-center mx-10 px-3">Bienvenue chez DAGA, votre partenaire informatique de confiance...</p>
+        <ul class="text-center justify-content-center px-0">
+          <button href="mailto:test@daga.fr" class="btn btn-lg btn-secondary my-4 me-2">Mail</button>
+          <button href="simulateur.html" class="btn btn-lg btn-secondary my-4 ms-2">Simulateur</button>
+        </ul>
+    </main>
+```

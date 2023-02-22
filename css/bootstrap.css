@@ -10878,6 +10878,10 @@ textarea.form-control-lg {
     margin-right: 3rem !important;
     margin-left: 3rem !important;
   }
+  .mx-xl-7.5 {
+    margin-right: 4.5rem !important;
+    margin-left: 4.5rem !important;
+  }
   .mx-xl-15 {
     margin-right: 9rem !important;
     margin-left: 9rem !important;
@@ -11443,6 +11447,10 @@ textarea.form-control-lg {
   .mx-xxl-5 {
     margin-right: 3rem !important;
     margin-left: 3rem !important;
+  }
+  .mx-xxl-10 {
+    margin-right: 6rem !important;
+    margin-left: 6rem !important;
   }
   .mx-xxl-20 {
     margin-right: 12rem !important;
