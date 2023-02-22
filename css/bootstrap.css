@@ -7592,7 +7592,18 @@ textarea.form-control-lg {
 .w-auto {
   width: auto !important;
 }
-
+.mw-10 {
+  max-width: 10% !important;
+}
+.mw-20 {
+  max-width: 20% !important;
+}
+.mw-30{
+  max-width: 30% !important;
+}
+.mw-50 {
+  max-width: 50% !important;
+}
 .mw-100 {
   max-width: 100% !important;
 }
@@ -10305,6 +10316,10 @@ textarea.form-control-lg {
     margin-right: 3rem !important;
     margin-left: 3rem !important;
   }
+  .mx-lg-10 {
+    margin-right: 6rem !important;
+    margin-left: 6rem !important;
+  }
   .mx-lg-auto {
     margin-right: auto !important;
     margin-left: auto !important;
@@ -10862,6 +10877,14 @@ textarea.form-control-lg {
   .mx-xl-5 {
     margin-right: 3rem !important;
     margin-left: 3rem !important;
+  }
+  .mx-xl-15 {
+    margin-right: 9rem !important;
+    margin-left: 9rem !important;
+  }
+  .mx-xl-20 {
+    margin-right: 12rem !important;
+    margin-left: 12rem !important;
   }
   .mx-xl-auto {
     margin-right: auto !important;
@@ -11421,6 +11444,10 @@ textarea.form-control-lg {
     margin-right: 3rem !important;
     margin-left: 3rem !important;
   }
+  .mx-xxl-20 {
+    margin-right: 12rem !important;
+    margin-left: 12rem !important;
+  }
   .mx-xxl-auto {
     margin-right: auto !important;
     margin-left: auto !important;
@@ -11798,6 +11825,6 @@ textarea.form-control-lg {
 	background-image: url("../images/background.jpg");
 	backdrop-filter: blur(10px);
 	background-size: cover;
-	z-index: -10; /* Keep the background behind the content */     
+	z-index: -10	; /* Keep the background behind the content */     
     
 }
