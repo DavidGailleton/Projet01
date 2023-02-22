@@ -71,13 +71,13 @@ Foctionnalité des différentes balise :
 
 Je vais ensuite embélire le visuel avec du CSS et surtout des preset CSS de bootstrap:
 ``` html
-<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-            <img src="images/logo.jpg" alt="Logo" class="ms-4">
+<header class="d-flex flex-wrap align-items-center justify-content-md-between py-3 mb-4 border-bottom">
+        <a href="index.html" class="col-md-auto mb-auto mb-md-aut">
+            <img src="images/DAGA.svg" alt="Logo" class="ms-4 w-33 img-fluid">
         </a>
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-5">
-            <li><a href="#" class="nav-link px-3 link-dark">A propos</a></li>
-            <li><a href="#" class="nav-link px-3 link-dark">Simulateur</a></li>
+            <li><a href="index.html" class="nav-link px-3 link-dark">A propos</a></li>
+            <li><a href="simulateur.html" class="nav-link px-3 link-dark">Simulateur</a></li>
         </ul>
         <ul class="col-md-3 text-end">
             <button class="btn btn-dark me-3 mt-3">Login</button>
@@ -85,3 +85,14 @@ Je vais ensuite embélire le visuel avec du CSS et surtout des preset CSS de boo
     </header>
 ```
 
+Pour la partie body je commence par ajouter le contenu en HTML :
+``` html
+<main>
+        <h1>A propos</h1>
+        <p>Bienvenue chez DAGA, votre partenaire informatique de confiance...</p>
+        <ul>
+          <button>Mail</button>
+          <button>Simulateur</button>
+        </ul>
+    </main>
+```
