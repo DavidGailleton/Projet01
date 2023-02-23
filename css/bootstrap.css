@@ -11840,11 +11840,32 @@ textarea.form-control-lg {
 	width: 10rem ;
 }
 .text-box {
-	width: 20rem;
+	width: 15rem;
 }
 .text-mail {
 	height: 15rem;
+	width: 15rem;
+}
+@media (min-width: 450px) {
+.text-mail {
+	height: 15rem;
+	width: 20rem;
+}
+.text-box {
+	width: 20rem;
+}
+}
+@media (min-width: 590px) {
+.text-mail {
+	height: 15rem;
+	width: 30rem;
+}
+}
+@media (min-width: 825px) {
+.text-mail {
+	height: 15rem;
 	width: 40rem;
+}
 }
 .border-radius {
 	border-radius: 0.5rem;
