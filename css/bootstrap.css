@@ -11831,11 +11831,21 @@ textarea.form-control-lg {
 
 .background-image {
 	background-image: url("../images/background.jpg");
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(15px);
 	background-size: cover;
 	z-index: -10	; /* Keep the background behind the content */     
     
 }
 .logo {
 	width: 10rem ;
+}
+.text-box {
+	width: 20rem;
+}
+.text-mail {
+	height: 15rem;
+	width: 40rem;
+}
+.border-radius {
+	border-radius: 0.5rem;
 }

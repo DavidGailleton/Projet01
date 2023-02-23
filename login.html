@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
-<body class="background-image">
+<body class="background-image d-flex flex-column min-vh-100 justify-content-between">
 
     <header class="d-flex flex-column flex-md-row flex-wrap align-items-center justify-content-md-between py-3 mb-4 border-bottom bg-white">
         <section class="d-flex flex-wrap justify-content-center">
@@ -24,42 +24,42 @@
             <li><a href="index.html" class="nav-link px-3 link-dark">A propos</a></li>
             <li><a href="simulateur.html" class="nav-link px-3 link-dark">Simulateur</a></li>
         </ul>
-        <ul class="text-end d-flex justify-content-center">
+        <ul class="text-end d-flex justify-content-center mx-3">
             <a href="login.html">
-            <button class="btn btn-dark me-3 mt-3">Envoyer un message</button>
+            <button class="btn btn-dark me-3 mt-3">Contacter</button>
             </a>
         </ul>
     </header>
 
-    <main class="bg-white mx-xxl-20 mx-xl-15 mx-lg-10 mx-md-5 mx-3 flex-column d-flex flex-wrap align-items-center">
+    <main class="bg-white mx-xxl-20 mx-xl-15 mx-lg-10 mx-md-5 mx-3 flex-column d-flex flex-wrap align-items-center border-radius">
         <section class="flex-column flex flex-wrap mx-5 my-4">
-            <h1 class="d-flex h1 mb-4">Envoyer un message</h1>
+            <h1 class="d-flex h1 py-2 mb-4">Contact</h1>
             <form action="post">
                 <section class="nav d-flex mb-3">
                     <label>Mail :
-                        <input class="form-control mt-2" type="text">
+                        <input class="form-control mt-2 text-box" type="text">
                     </label>
                 </section>
                 <section class="d-flex my-3">
                     <label>Prenom NOM :
-                        <input class="form-control mt-2" type="text">
+                        <input class="form-control mt-2 text-box" type="text">
                     </label>
                 </section>
                 <section class="d-flex my-3">
                     <label>Message :
-                        <input class="form-control mt-2" type="text">
+                        <textarea class="form-control mt-2 text-mail" type="text"></textarea>
                     </label>
                 </section>
-                <section class="d-flex mt-5">
-                    <button class="btn btn-secondary">Envoyer le message</button>
+                <section class="d-flex mt-4">
+                    <button class="btn btn-secondary my-3">Envoyer le message</button>
                 </section>
             </form>
         </section>
     </main>
 
-    <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top bg-dark">
-        <article>
-            <p class="text-secondary my-4">© 2023 Copyright: DAGA.fr</p>
+    <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 mt-4 border-top bg-dark">
+        <article class="my-3">
+            <p class="text-secondary my-auto">© 2023 Copyright: DAGA.fr</p>
         </article>
     </footer>
     <script src="js/bootstrap.js"></script>
