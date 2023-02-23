@@ -590,7 +590,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -996,6 +996,10 @@ progress {
 }
 
 @media (min-width: 576px) {
+	.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
   .col-sm {
     flex: 1 0 0%;
   }
@@ -1334,6 +1338,7 @@ progress {
   }
 }
 @media (min-width: 992px) {
+	
   .col-lg {
     flex: 1 0 0%;
   }
@@ -10315,6 +10320,10 @@ textarea.form-control-lg {
   .mx-lg-5 {
     margin-right: 3rem !important;
     margin-left: 3rem !important;
+  }
+  .mx-lg-6 {
+    margin-right: 4rem !important;
+    margin-left: 4rem !important;
   }
   .mx-lg-10 {
     margin-right: 6rem !important;

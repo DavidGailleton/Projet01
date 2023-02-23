@@ -44,7 +44,9 @@ servent à ajouter le frameworks bootstrap au site.
 
 Bootstrap est un framework développé par l'équipe du réseau social Twitter. Proposé en open source, ce framework utilisant les langages HTML, CSS et JavaScript fournit aux développeurs des outils pour créer un site facilement.
 
-Le site vas être divisé en 3 parties, `<header>` `<main>` `<footer>`. Ces balise permette de mieux distinguer les différente partie par le navigateur, elles remplacent la balise `<div>` pour un meilleur rendue.
+Le partie `<body>` vas être divisé en 3 parties, `<header>` `<main>` `<footer>`. Ces balise permette de mieux distinguer les différente partie par le navigateur, elles remplacent la balise `<div>` pour un meilleur rendue.
+
+#### Header
 
 Je vais configurer la partie `<header>` :
 ``` html
@@ -89,6 +91,8 @@ Je vais ensuite embélire le visuel avec du CSS et surtout des preset CSS de boo
 </header>
 ```
 
+#### Main
+
 Pour la partie body je commence par ajouter le contenu en HTML :
 ``` html
 <main>
@@ -114,6 +118,33 @@ Après avoir ajouter du CSS ça done ceci :
         </ul>
 </main>
 ```
+
+Pour que la taille de police sur la page à propos se réduise sur un smartphone, je vais modifier :
+``` css
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+```
+en :
+``` css
+.lead {
+  font-size: 1rem;
+  font-weight: 300;
+}
+```
+
+Puis je vais ajouter un média query au code css pour les écran large :
+``` css
+@media (min-width: 576px) {
+	.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+}
+```
+
+#### Footer
 
 C'est la même chose pour le `<footer>` :
 
@@ -144,7 +175,7 @@ Afin de corriger les problèmes d'affichage je vais modifier le `<body>` :
 <body class="background-image d-flex flex-column min-vh-100 justify-content-between">
 ```
 
-je vais traduire les class en css :
+Utilité des différentes class en css :
 
 	- `d-flex` ou `display: flex;` : permet de contenir la partie `<body>` dans une box qui pourra être manipulé.
 	- `flex-column` ou `flex-direction: column;` : permet de positionner les différentes balises enfants en colonne.
