@@ -44,6 +44,8 @@ servent à ajouter le frameworks bootstrap au site.
 
 Bootstrap est un framework développé par l'équipe du réseau social Twitter. Proposé en open source, ce framework utilisant les langages HTML, CSS et JavaScript fournit aux développeurs des outils pour créer un site facilement.
 
+### index.html
+
 Le partie `<body>` vas être divisé en 3 parties, `<header>` `<main>` `<footer>`. Ces balise permette de mieux distinguer les différente partie par le navigateur, elles remplacent la balise `<div>` pour un meilleur rendue.
 
 #### Header
@@ -99,10 +101,14 @@ Pour la partie body je commence par ajouter le contenu en HTML :
         <h1>A propos</h1>
         <p>Bienvenue chez DAGA, votre partenaire informatique de confiance...</p>
         <ul>
-          <button href="mailto:test@daga.fr">Contacter</button>
-          <button href="simulateur.html">Simulateur</button>
+            <a href="login.html">
+                <button>Contacter</button>
+            </a>
+            <a href="simulateur.html">
+                <button>Simulateur</button>
+            </a>
         </ul>
-</main>
+    </main>
 ```
 
 `<h1>` : permet d'insérer un Titre qui sera surout utile pour le référencement.
@@ -111,12 +117,16 @@ Après avoir ajouter du CSS ça done ceci :
 ``` html
  <main class="bg-white mx-xxl-20 mx-xl-15 mx-lg-10 mx-md-5 mx-3 flex-column d-flex flex-wrap border-radius">
         <h1 class="h1 text-center py-4">A propos</h1>
-        <p class="lead text-center mx-xxl-10 mx-xl-7.5 mx-5 px-3">Bienvenue chez DAGA, votre partenaire informatique de confiance...</p>
+        <p class="lead text-center mx-xxl-10 mx-xl-7.5 mx-lg-6 mx-md-5 mx-4 px-0">Bienvenue chez DAGA, votre partenaire informatique de confiance....</p>
         <ul class="text-center justify-content-center px-0">
-          <button href="mailto:test@daga.fr" class="btn btn-lg btn-secondary my-4 me-2">Contacter</button>
-          <button href="simulateur.html" class="btn btn-lg btn-secondary my-4 ms-2">Simulateur</button>
+            <a href="login.html">
+                <button  class="btn btn-lg btn-secondary my-4 me-2">Contacter</button>
+            </a>
+            <a href="simulateur.html">
+                <button class="btn btn-lg btn-secondary my-4 ms-2">Simulateur</button>
+            </a>
         </ul>
-</main>
+    </main>
 ```
 
 Pour que la taille de police sur la page à propos se réduise sur un smartphone, je vais modifier :
