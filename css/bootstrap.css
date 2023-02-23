@@ -8427,7 +8427,7 @@ textarea.form-control-lg {
 }
 
 /* rtl:end:remove */
-.text-primary {
+.text-primary. {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
@@ -11835,4 +11835,7 @@ textarea.form-control-lg {
 	background-size: cover;
 	z-index: -10	; /* Keep the background behind the content */     
     
+}
+.logo {
+	width: 10rem ;
 }

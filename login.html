@@ -20,7 +20,6 @@
             </a>
         </section>
         
-
         <ul class="nav justify-content-center fs-5 d-flex">
             <li><a href="index.html" class="nav-link px-3 link-dark">A propos</a></li>
             <li><a href="simulateur.html" class="nav-link px-3 link-dark">Simulateur</a></li>
@@ -32,13 +31,30 @@
         </ul>
     </header>
 
-    <main class="bg-white mx-xxl-20 mx-xl-15 mx-lg-10 mx-md-5 mx-3 flex-column d-flex flex-wrap">
-        <h1 class="h1 text-center py-4">A propos</h1>
-        <p class="lead text-center mx-xxl-10 mx-xl-7.5 mx-5 px-3">Bienvenue chez DAGA, votre partenaire informatique de confiance. Depuis notre création, nous nous engageons à fournir à nos clients des solutions informatiques efficaces et innovantes pour répondre à leurs besoins en constante évolution. Nous sommes fiers de notre approche personnalisée et collaborative, qui nous permet de créer des solutions sur mesure qui répondent à leurs exigences uniques. Chez DAGA, nous sommes passionnés par l'informatique et nous nous efforçons constamment de rester à la pointe de la technologie. Contactez-nous dès aujourd'hui pour discuter de vos besoins informatiques.</p>
-        <ul class="text-center justify-content-center px-0">
-          <button href="mailto:test@daga.fr" class="btn btn-lg btn-secondary my-4 me-2">Mail</button>
-          <button href="simulateur.html" class="btn btn-lg btn-secondary my-4 ms-2">Simulateur</button>
-        </ul>
+    <main class="bg-white mx-xxl-20 mx-xl-15 mx-lg-10 mx-md-5 mx-3 flex-column d-flex flex-wrap align-items-center">
+        <section class="flex-column flex flex-wrap mx-5 my-4">
+            <h1 class="d-flex h1 mb-4">Envoyer un message</h1>
+            <form action="post">
+                <section class="nav d-flex mb-3">
+                    <label>Mail :
+                        <input class="form-control mt-2" type="text">
+                    </label>
+                </section>
+                <section class="d-flex my-3">
+                    <label>Prenom NOM :
+                        <input class="form-control mt-2" type="text">
+                    </label>
+                </section>
+                <section class="d-flex my-3">
+                    <label>Message :
+                        <input class="form-control mt-2" type="text">
+                    </label>
+                </section>
+                <section class="d-flex mt-5">
+                    <button class="btn btn-secondary">Envoyer le message</button>
+                </section>
+            </form>
+        </section>
     </main>
 
     <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top bg-dark">
